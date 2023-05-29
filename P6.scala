@@ -21,7 +21,7 @@ object MinMax{
 		for(value <- numArray){
 			if(value>max)
 				max = value
-			else if(value<min)
+			if(value<min)
 				min = value
 		}
 		(max,min)
