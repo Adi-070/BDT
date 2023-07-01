@@ -18,3 +18,6 @@ for(i in 1:6)
   df1[i] <- ifelse(is.na(df[,i]),mean(df[,i],na.rm=TRUE),df[,i])
 
 df1
+
+df2<- na.omit(df)
+df2
