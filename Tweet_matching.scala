@@ -35,7 +35,7 @@ object tweetmining {
     
 
     val tweetsByUser = tweets.map(x => (x.user, x)).groupByKey()
-     }
+     
 
     
 
